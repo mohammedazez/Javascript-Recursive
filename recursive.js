@@ -3,7 +3,13 @@
 // 4! = 4 * 3!
 // 4! = 4 * 3 * 2!
 // 4! = 4 * 3 * 2 * 1
-// 4! = 2
+// 4! = 24
+
+function faktorial(n) {
+  if (n === 0) return 1;
+  return n * faktorial(n - 1);
+}
+console.log(faktorial(4));
 
 // 2. Buatlah rekursive function yang dapat menampilkan deret angka genap sampai N Input.
 // Contoh : Jika diberi argumen angka 5, maka hasilnya adalah 0 2 4
