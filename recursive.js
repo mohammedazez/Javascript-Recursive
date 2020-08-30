@@ -35,3 +35,17 @@ deretAngkaGenap(5);
 // function(4) = 24
 // function(5) = 48
 // function(n) = ....
+
+// function fungsi(exp) {
+//   if(exp === 1) {
+//       return 3;
+//   } else {
+//       return 2 * fungsi(exp-1);
+//   }
+// }
+
+// console.log(fungsi(1));
+// console.log(fungsi(2));
+// console.log(fungsi(3));
+// console.log(fungsi(4));
+// console.log(fungsi(5));
